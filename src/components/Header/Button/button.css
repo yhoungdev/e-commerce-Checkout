@@ -1,0 +1,70 @@
+.btn {
+    background-color: var(--primary);
+    color: aliceblue;
+    border: none;
+    height: 60px !important;
+    padding: 0 2em;
+    border-radius: 0.5em;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.cart-action {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+ 
+}
+
+.addBtn , .subBtn {
+    background-color: var(--Light);
+    border: 0;
+    padding: 0.5em 0.7em;
+
+
+    margin: 1em 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+ .subBtn:hover {
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    color: var(--primary);
+    cursor: pointer;
+}
+
+
+
+.action-section {
+
+    display: flex;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 780px) {
+    
+    button {
+        width: 100%;
+
+        margin: 1em 0;
+    }
+
+    .action-section {
+        flex-direction: column;
+    }
+
+    .cart-action {
+        justify-content: space-between !important;
+        background-color: rgba(250, 250, 250, 0.539);
+        padding: 0 2em;
+        width: 100%;
+        border-radius:1em  ;
+    }
+}

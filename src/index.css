@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;700&display=swap');
+:root {
+  --primary: hsl(26, 100%, 55%);
+  --pale: hsl(25, 100%, 94%);
+  --font:'Kumbh Sans', sans-serif;
+  --vark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light: hsl(223, 64%, 98%);
+
+
+
+}
+
+
+
+
+/* reusable classes  */
+.grey {
+  color: var(  --Dark-grayish);
+  line-height: 2;
+}
+
+.px {
+  padding: 0 1em;
+}
+
+.py-0 {
+  padding: 0.3em 0;
+}
+.py {
+  padding: 1em 0;
+}
+
+.my {
+  margin: 1em 0;
+}
+
+.mx {
+  margin: 0em 1em;
+}

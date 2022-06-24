@@ -1,0 +1,89 @@
+.main {
+    display: flex;
+    
+    gap: 2em;
+}
+
+
+
+.showcase {
+
+        
+      
+}
+
+.description {
+    h4 {
+        color: var(--primary) ;
+    }
+}
+
+
+//for small screens 
+
+@media screen and (max-width: 780px) {
+
+    .main {
+        flex-direction: column;
+    }
+
+    .show-case {
+
+        img {
+            
+        }
+    }
+
+    .main-img {
+        
+    }
+
+    .main-container {
+        margin: 0;
+
+        .main-img {
+            width: 100vw;
+        }
+    }
+
+}
+
+
+//for large screens 
+@media screen and (min-width: 1020px) {
+    
+    .showcase {
+        width: 40%;
+        height: 100vh;
+
+        .main-img {
+            width: 100%;
+            border-radius: 0.5em;
+        }
+    }
+
+    .action {
+        width: 50%;
+        margin: 2em 0;
+
+        .container {
+            margin: 0;
+        }
+    }
+
+    .main-container {
+        padding: 3em 0;
+
+
+
+        .sneaker-name {
+            font-size: 3em;
+            
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+    }
+}

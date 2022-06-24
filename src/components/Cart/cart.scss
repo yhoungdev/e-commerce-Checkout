@@ -1,0 +1,40 @@
+.cart-box {
+    width: 30%;
+    background-color: white;
+  
+    padding: 2em ;
+    position: absolute;
+    right: 4em;
+    border-radius: 0.5em;
+
+}
+
+.top {
+    margin-bottom: 2em;
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+
+//for small screens 
+@media screen and (max-width: 870px) {
+
+    .cart-box {
+        width: 90%;
+        position: absolute;
+        margin: 1em;
+        right: 0;
+        
+
+        
+
+    }
+}
+
+//for large screen 
+@media screen and (min-width: 1024px) {
+        
+    .cart-box {
+        box-shadow: -5px 10px 40px 0px rgb(236, 236, 236);
+    }
+
+}   

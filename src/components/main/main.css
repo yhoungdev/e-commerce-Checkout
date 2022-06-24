@@ -1,0 +1,54 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
+}
+
+.description h4 {
+  color: var(--primary);
+}
+
+@media screen and (max-width: 780px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-container {
+    margin: 0;
+  }
+  .main-container .main-img {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .showcase {
+    width: 40%;
+    height: 100vh;
+  }
+  .showcase .main-img {
+    width: 100%;
+    border-radius: 0.5em;
+  }
+  .action {
+    width: 50%;
+    margin: 2em 0;
+  }
+  .action .container {
+    margin: 0;
+  }
+  .main-container {
+    padding: 3em 0;
+  }
+  .main-container .sneaker-name {
+    font-size: 3em;
+  }
+  .main-container p {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+}
+/*# sourceMappingURL=main.css.map */

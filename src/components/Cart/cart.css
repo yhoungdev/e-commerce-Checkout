@@ -1,0 +1,30 @@
+.cart-box {
+  width: 30%;
+  background-color: white;
+  padding: 2em;
+  position: absolute;
+  right: 4em;
+  border-radius: 0.5em;
+}
+
+.top {
+  margin-bottom: 2em;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+@media screen and (max-width: 870px) {
+  .cart-box {
+    width: 90%;
+    position: absolute;
+    margin: 1em;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cart-box {
+    -webkit-box-shadow: -5px 10px 40px 0px #ececec;
+            box-shadow: -5px 10px 40px 0px #ececec;
+  }
+}
+/*# sourceMappingURL=cart.css.map */
