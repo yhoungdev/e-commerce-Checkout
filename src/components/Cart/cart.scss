@@ -6,6 +6,8 @@
     position: absolute;
     right: 4em;
     border-radius: 0.5em;
+    max-height: 50%;
+    overflow-y: scroll;
 
 }
 
@@ -23,6 +25,8 @@
     display: flex;
     gap: 1em;
     color: var(--primary-color) !important;
+    align-items: center;
+    line-height: 1.5em;
 
 }
 
@@ -35,6 +39,9 @@
         position: absolute;
         margin: 1em;
         right: 0;
+        overflow-y: scroll;
+        max-height: 40%;
+      
         
 
         
