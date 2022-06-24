@@ -37,6 +37,10 @@
           align-items: center;
 }
 
+.cart-icon {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 780px) {
   .mobile-hide {
     display: none !important;

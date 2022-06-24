@@ -1,14 +1,19 @@
 import './cart.css'
-const CartBox = () => {
+import Items from './item';
+const CartBox = (props: any) => {
     return (
         
         <>
 
-            <div className="cart-box">
+            <div className="cart-box"  style={
+                {
+                    display: props.display ? 'block' : 'none'
+                }
+            }>
 
                 <h3 className='my top'>Cart</h3>
 
-                <center>No item in Cart</center>
+                <Items/>
 
             </div>
 
