@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <>
         
-           <div>
+           <header>
 
                 <div className="container">
 
@@ -51,7 +51,7 @@ const Header = () => {
 
                 </div>
 
-           </div>
+           </header>
 
            <CartBox display={open}/>
         
